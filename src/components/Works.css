@@ -1,0 +1,133 @@
+.works {
+    padding: 2rem;
+    background: #fff;
+  }
+  
+  .works_container > h1 {
+    font-size: 22px;
+    color: #1f3552;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+  }
+  
+  .works__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .works__wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+  }
+  
+  .works__items {
+    margin-bottom: 24px;
+  }
+  
+  .works__item {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+  }
+  
+.works__center {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+
+  .works__item__link {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  .works__item__pic-wrap {
+    position: absolute;
+    width: 100%;
+    padding-top: 100%;
+    overflow: hidden;
+  }
+
+  .works__item__img {
+    width: 15%;
+    max-width: 15%;
+    height: 15%;
+    max-height: 15%;
+    object-fit: cover;
+  }
+  
+
+  .works__item__info {
+    padding: 20px 30px 30px;
+  }
+  .works__item__title {
+    color: #1f3552;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .works__item__text {
+    color: #a4a4a4;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .works__item__number {
+    color: #b6b6b6;
+    font-size: 32px;
+    text-align: center;
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .content__blog__container {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .works__items {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .works__item {
+      margin-bottom: 2rem;
+    }
+  }
+
+
+.Text-1 {
+    background-color: rgb(213, 234, 247);
+    border-radius: 6px;
+    padding: 5rem 1rem 5rem 5rem;
+    
+}
+
+.Text-1 > h1 {
+    font-size: 28px;
+    color: #1f3552;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.Text-1 > p {
+    font-size: 14px;
+    color: #939393;
+    text-align: left;
+}
+
+.Img-Offer { 
+    padding: 5px;   
+}

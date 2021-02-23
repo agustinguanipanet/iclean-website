@@ -1,0 +1,43 @@
+.grid-foot {
+    background-color: rgb(255, 255, 255);
+    padding: 3rem 1rem 1rem 1rem;
+}
+
+.Foot-Name > h2 {
+    color: #000000;
+    font-size: 20px;
+    text-align: left;
+}
+
+.Foot-Name > h3 {
+    color: #1f3552;
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+
+.Foot-Name > ul > li {
+    color: #a0a0a0;
+    font-size: 12px;
+    padding: 5px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Foot-Name > ul > li > a {
+    color: #a0a0a0;
+}
+
+.Foot-Name > ul > li > i {
+    padding-right: 5px;
+}
+
+.Foot-Social {
+    padding-top: 75px;
+    text-align: right;
+}
+
+.Foot-Social > a {
+    color: #a0a0a0;
+    font-size: 12px;
+    padding-right: 10px;
+}

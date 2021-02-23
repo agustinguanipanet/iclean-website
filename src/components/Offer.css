@@ -1,0 +1,40 @@
+.grid-offer {
+    padding: 8rem 1rem 8rem 1rem;
+}
+
+.Text-1 {
+    background-color: rgb(213, 234, 247);
+    border-radius: 6px;
+    padding: 5rem 1rem 5rem 5rem;
+    
+}
+
+.Text-1 > h1 {
+    font-size: 28px;
+    color: #1f3552;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.Text-1 > p {
+    font-size: 14px;
+    color: #939393;
+    text-align: left;
+}
+
+.Img-Offer { 
+    padding: 5px;   
+}
+
+.Img-Offer > .Card {
+    background: linear-gradient(rgb(157, 157, 157) rgba(255, 255, 255, 0.392));
+    border-radius: 0.3rem;
+    width: 100%;
+    height: 350px;
+}
+
+.Img-Offer > .Card > img {
+    border-radius: 0.3rem;
+    background-size: cover;
+    
+}

@@ -1,0 +1,284 @@
+.grid-container {
+    background-color: #e6e8e7;
+    padding: 15px;
+}
+
+.Hero-1 {  
+    background: #e6e8e7;
+    padding: 5rem;
+}
+
+.Hero-2 {
+    display: block;
+    align-items: center;
+}
+
+.Img-1 { 
+    padding: 5px;   
+}
+
+.Img-1 > .Card {
+    border-radius: 0.3rem;
+    width: 350px;
+    height: 250px;
+}
+
+.Img-1 > .Card > img {
+    border-radius: 0.3rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Img-2 { 
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.Img-2 > .Card {
+    border-radius: 0.3rem;
+    width: 350px;
+    height: 250px;
+}
+
+.Img-2 > .Card > img {
+    border-radius: 0.3rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Img-3 { 
+    padding: 5px;
+}
+
+.Img-3 > .Card {
+    border-radius: 0.3rem;
+    width: 350px;
+    height: 250px;
+}
+
+.Img-3 > .Card > img {
+    border-radius: 0.3rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Img-4 { 
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.Img-4 > .Card {
+    border-radius: 0.3rem;
+    width: 350px;
+    height: 250px;
+}
+
+.Img-4 > .Card > img {
+    border-radius: 0.3rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Hero-1 > h5 {
+    font-size: 42px;
+    color: #1d3451;
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+.Hero-1 > h6 {
+    font-size: 24px;
+    color: #767776;
+    margin-top: 20px;
+    font-weight: 100;    
+}
+
+.hero-btns {
+    margin-top: 30px;
+}
+
+.hero-btns .btn {
+    margin: 6px;
+}
+
+@media screen and (max-width: 1200px) {
+    .grid-container {
+        background-color: #e6e8e7;
+        padding: 15px;
+    }
+
+    .Hero-1 {  
+        background: #e6e8e7;
+        display: block;
+        align-items: center;
+    }
+
+    .Hero-2 {
+        display: block;
+        align-items: center;
+    }
+
+    .Img-1 { 
+        padding: 5px;   
+    }
+
+    .Img-1 > .Card {
+        border-radius: 0.3rem;
+        width: 250px;
+        height: 200px;
+    }
+
+    .Img-1 > .Card > img {
+        border-radius: 0.3rem;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .Img-2 { 
+        padding: 5px;
+        margin-top: 25px;
+    }
+
+    .Img-2 > .Card {
+        border-radius: 0.3rem;
+        width: 250px;
+        height: 200px;
+    }
+
+    .Img-2 > .Card > img {
+        border-radius: 0.3rem;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .Img-3 { 
+        padding: 5px;
+    }
+
+    .Img-3 > .Card {
+        border-radius: 0.3rem;
+        width: 250px;
+        height: 200px;
+    }
+
+    .Img-3 > .Card > img {
+        border-radius: 0.3rem;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .Img-4 { 
+        padding: 5px;
+        margin-top: 25px;
+    }
+
+    .Img-4 > .Card {
+        border-radius: 0.3rem;
+        width: 250px;
+        height: 200px;
+    }
+
+    .Img-4 > .Card > img {
+        border-radius: 0.3rem;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .Hero-1 > h5 {
+        font-size: 42px;
+        color: #1d3451;
+        margin-top: 25px;
+        font-weight: 600;
+    }
+
+    .Hero-1 > h6 {
+        font-size: 24px;
+        color: #767776;
+        margin-top: 20px;
+        font-weight: 100;    
+    }
+
+    .hero-btns {
+        margin-top: 30px;
+    }
+
+    .hero-btns .btn {
+        margin: 6px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .grid-container {
+        background-color: #e6e8e7;
+    }
+    
+    .Hero-1 {
+        background: #e6e8e7;
+        float: none;
+    }
+    
+    .Hero-2 {
+        background: #e6e8e7;
+    }
+    
+    .Img-1 > .Card {
+        border-radius: 0.3rem;
+        width: 100%;
+        height: 150px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .Img-1 > .Card > img {
+        background-size: cover;
+        object-fit: cover;
+    }
+
+    .Img-2 > .Card {
+        border-radius: 0.3rem;
+        width: 100%;
+        height: 150px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .Img-2 > .Card > img {
+        background-size: cover;
+        object-fit: cover;
+    }
+
+    .Img-3 > .Card {
+        border-radius: 0.3rem;
+        width: 100%;
+        height: 150px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .Img-3 > .Card > img {
+        background-size: cover;
+        object-fit: cover;
+    }
+
+    .Img-4 > .Card {
+        border-radius: 0.3rem;
+        width: 100%;
+        height: 150px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .Img-4 > .Card > img {
+        background-size: cover;
+        object-fit: cover;
+    }
+}
+
